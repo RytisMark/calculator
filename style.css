@@ -46,10 +46,26 @@
     grid-column-start: 1;
     grid-column-end: 3;
 }
-  
-.number {
-    background-color: #919098;
-    color: #fff;
+
+.calculator-display, .function, .operation, .number {
     padding: 20px;
     font-size: 150%;
+    color: white;
+}
+
+.calculator-display {
+    background-color: #2E3038;
+}
+
+.function {
+    background-color: #696a6f;
+}
+
+.operation {
+    background-color: orange;
+}
+
+.number {
+    background-color: #555862;
+    /* background-color: lightgray; */
 }
